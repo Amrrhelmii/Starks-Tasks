@@ -1,0 +1,14 @@
+include <stdio.h>
+void main (void)
+{
+   int x;
+   char y;
+   float z;
+printf("Enter integar number %d",x);
+scanf("%d",&x);
+printf("Enter character %c",y);
+scanf("%c",&y);
+printf("Enter decimal number %x",z);
+scanf("%x",&z);
+printf("integar number : %d character is : %x decimal no : %x ",x,y,z);
+}

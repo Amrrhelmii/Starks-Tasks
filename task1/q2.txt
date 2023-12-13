@@ -1,0 +1,11 @@
+#include <stdio.h>
+void main (void)
+{
+float x,y;
+printf("enter first no %x\n",x);
+scanf("%x",&x);
+printf("enter second no %x\n",y);
+scanf("%x",&y);
+printf("before swape: %x %x",x,y);
+printf("before swape: %x %x",y,x);
+}
